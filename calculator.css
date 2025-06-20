@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: #20201E;
+    border-radius: 10px;
+    height: 576px;
+    width: 381px;
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.historyRow{
+    color: white;
+    padding-left: 15px;
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.historyRow :nth-child(2){
+    font-weight: bolder;
+    margin-left: 15px;
+}
+#output{
+    /* display: flex; */
+    /* justify-content: start; */
+    /* align-items: center; */
+    /* background-color: pink; */
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    min-width: 99px;
+    padding-left: 2px;
+    padding-right: 4px;
+    text-align: right;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+}
+.calculatorControls{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 2px;
+}
+.btn{
+    background-color: #323232;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 58px;
+}
+.bg-secondary{
+    background-color: #3B3B3B;
+}
+.equalTo{
+    background-color: blue;
+}
+.dot{
+    font-size: 30px;
+}
+.buttons :hover{
+    background-color: rgb(71, 70, 70);
+}
+.equalTo :hover{
+    background-color: rgb(206, 21, 21);
+}
