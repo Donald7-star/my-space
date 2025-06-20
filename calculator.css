@@ -64,15 +64,15 @@ body{
 .bg-secondary{
     background-color: #3B3B3B;
 }
-.equalTo{
+#equalTo{
     background-color: blue;
 }
 .dot{
     font-size: 30px;
 }
-.buttons :hover{
+.buttons .btn:hover{
     background-color: rgb(71, 70, 70);
 }
-.equalTo :hover{
-    background-color: rgb(206, 21, 21);
+#equalTo:hover{
+    background-color: rgb(6, 47, 255);
 }
